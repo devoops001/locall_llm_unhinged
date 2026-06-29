@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import { explainCmd } from './commands/explain';
 import { scaffoldCmd } from './commands/scaffold';
 import { summarizeCmd } from './commands/summarize';
@@ -17,4 +18,5 @@ async function main(){
     console.log('Usage: myai <explain|scaffold|summarize> [args]');
   }
 }
+
 main();
